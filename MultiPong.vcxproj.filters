@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\GameStateMachine">
+      <UniqueIdentifier>{4a5fb844-2b1b-4503-b144-ae9a603965e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameStateMachine">
+      <UniqueIdentifier>{5597fe86-397d-4641-8b72-91325bd80332}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MovingObjects">
+      <UniqueIdentifier>{d3a0e2cd-2738-4578-99de-7271cce085ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Environment">
+      <UniqueIdentifier>{67d8d545-2ea0-47ec-bc19-aa3a2c3ac74f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Environment">
+      <UniqueIdentifier>{a9f2f186-989c-43b6-964d-15c84a130221}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MovingObjects">
+      <UniqueIdentifier>{2ccd5a9c-5045-402c-8cf1-6f61c8cf2b07}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files\GameStateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStateMachine.cpp">
+      <Filter>Source Files\GameStateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="GameTemplateState.cpp">
+      <Filter>Source Files\GameStateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlayState.cpp">
+      <Filter>Source Files\GameStateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider.cpp">
+      <Filter>Source Files\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Source Files\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Source Files\MovingObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterController.cpp">
+      <Filter>Source Files\MovingObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerBat.cpp">
+      <Filter>Source Files\MovingObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Projectile.cpp">
+      <Filter>Source Files\MovingObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="ConnectionState.cpp">
+      <Filter>Source Files\GameStateMachine</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameState.h">
+      <Filter>Header Files\GameStateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStateMachine.h">
+      <Filter>Header Files\GameStateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files\GameStateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="GameTemplateState.h">
+      <Filter>Header Files\GameStateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlayState.h">
+      <Filter>Header Files\GameStateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Header Files\MovingObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterController.h">
+      <Filter>Header Files\MovingObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerBat.h">
+      <Filter>Header Files\MovingObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Projectile.h">
+      <Filter>Header Files\MovingObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider.h">
+      <Filter>Header Files\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Header Files\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="ConnectionState.h">
+      <Filter>Header Files\GameStateMachine</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
